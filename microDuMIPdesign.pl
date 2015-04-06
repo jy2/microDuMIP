@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # This program is to design duplex molecular inversion probe(duMIP) to capture givin genomic regions (BED format)
-# Developed by Jung-Ki Yoon (neododari@gmail.com)
+# Developed by Jung-Ki Yoon (dr.jkyoon@gmail.com)
 
 # Note : all starting points in this program is 0-based. http://genome.ucsc.edu/FAQ/FAQtracks#tracks1
 # The real starting point is 1 base next to the position. 
@@ -15,8 +15,8 @@
 
 
 # Before running this script, run gfServer first. 
-# ./gfServer start 165.132.29.249 6666 -stepSize=5 -log=untrans.log hg19.2bit
-# ./gfClient 165.132.29.249 6666 ~/JK/blat/i386/ test2.fa test2_server.psl -minScore=0 -minIdentity=0
+# ./gfServer start (server IP) (port ex:6666) -stepSize=5 -log=untrans.log hg19.2bit
+# ./gfClient (server IP) (port) ~/JK/blat/i386/ test2.fa test2_server.psl -minScore=0 -minIdentity=0
 
 # $seq_path = "/home/schwarzwald/reference/hg19/";     reference genomic sequeunces "chr*.fa" 
 
